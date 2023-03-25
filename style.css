@@ -1,0 +1,88 @@
+#topo {
+    background-color: mediumturquoise;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#nomeProfissão {
+    background-color: #eaeaea;
+    width: 650px;
+    text-align: center;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+}
+
+#nomeProfissão h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 5px;
+}
+
+#nomeProfissão h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#nomeProfissão h1, h2 {
+    margin: 0;
+}
+
+#contato {
+    list-style-type: none;
+}
+
+#contato i {
+    width: 30px;
+    color: mediumturquoise;
+}
+
+#skills {
+    list-style-type: none;
+}
+
+#skills i {
+    width: 30px;
+    color: mediumturquoise;
+}
+
+#links {
+    list-style-type: none;
+}
+
+#links i {
+    width: 30px;
+    color: mediumturquoise;
+}
+
+#formação {
+    list-style-type: none;
+}
+
+#formação i {
+    width: 30px;
+    color: mediumturquoise;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+}
+
+#barraLateral, #conteudo {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.bloco h3 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bloco {
+    font-family: Montserrat;
+    border: 2px solid #eaeaea;
+    border-radius: 15px;
+    padding: 20px;
+}
